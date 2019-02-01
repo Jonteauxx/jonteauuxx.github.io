@@ -1,0 +1,96 @@
+<!DOCTYPE html5>
+<html lang="en">
+    <head>
+		<title> Company Name </title>
+		<link rel="stylesheet" type="text/css" href="contact1.css">
+        <meta charset="utf-8">
+		      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+        	<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+        	<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+        	<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+        	<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+        	<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+        	<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+        	<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+        	<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+        	<link rel="icon" type="image/png" sizes="192x192" href="android-icon-192x192.png">
+        	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        	<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+        	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        	<link rel="manifest" href="favicons/manifest.json">
+        	<meta name="msapplication-TileColor" content="#ffffff">
+        	<meta name="msapplication-TileImage" content="./favicons/ms-icon-144x144.png">
+        	<meta name="theme-color" content="#ffffff">
+        	<meta name="viewport" content="width=device-width">
+        	<video autoplay muted loop id="video">
+                <source src="background.mp4" type="video/mp4">
+            </video>
+	</head>
+ <body id="contactpage">
+     
+     <!-- maken van de logo met tekst -->
+     
+    <header class="companylogo">
+            <h1> COMPANY NAME</h1>
+    </header>
+     <!-- maken van de navigation-bar en clickable buttons -->
+<nav class="nav-bar">
+	<a href="index.html" title="homepage">HOME</a>
+	<a href="product2.html" title="productpage">PRODUCT</a>
+	<a href="http//:blogspot.com" title="www.blogspot.com">BLOG</a>
+</nav>
+        
+
+     <section class="banner">
+        <h2> CONTACT </h2>
+     </section>
+     
+     <section class="fields"> 
+<form action="nowhere.php" method="post">
+	<fieldset>
+		<label2 >Select topic</label2>
+		<select>
+			<option value="general">General inquiries</option>
+			<option value="press">Press relations</option>
+			<option value="recruitement">Recruitement</option>
+		</select>
+	</fieldset>
+
+	<fieldset class="contactFormFieldset">
+		<input
+				type="text"
+				name="contactFormName"
+				placeholder="Your name.."
+		/>
+	</fieldset>
+
+	<fieldset class="contactFormFieldset">
+		<input
+				type="email"
+				name="email"
+				placeholder="Your email.."
+		/>
+	</fieldset>
+
+	<fieldset>
+		<textarea
+				rows="7"
+				cols="40"
+				name="message"
+				placeholder="Write something.."
+		></textarea>
+	</fieldset>
+
+	<input
+			type="submit"
+			value="Submit"
+	/>
+</form>
+         </section>
+
+     <section class="footer">
+        <h3> © 2018 - Student name - Inholland </h3>
+     </section>
+    </body>
+</html>

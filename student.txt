@@ -1,0 +1,3 @@
+student name : Herdigein, T'nayro
+student number : 636308
+student class : infs1B
